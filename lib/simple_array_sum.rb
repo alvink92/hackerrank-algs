@@ -2,6 +2,7 @@
 
 def simpleArraySum(n, ar)
     # Complete this function
+    ar.inject(:+)
 end
 
 n = gets.strip.to_i
